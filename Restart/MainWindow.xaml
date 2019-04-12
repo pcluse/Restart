@@ -1,0 +1,15 @@
+﻿<Window x:Class="Restart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restart"
+        mc:Ignorable="d"
+        Title="Confirm Restart" Height="153" Width="286" Background="#FF404040" ShowInTaskbar="False" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Canvas>
+        <Label Name="Question" Content="Are you sure you want to restart?" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Grid.ColumnSpan="3" Width="259" Height="34" Canvas.Left="20" Canvas.Top="20"/>
+        <Button Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Click="Cancel_Click" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="20" Canvas.Top="105" IsDefault="True" IsCancel="True"/>
+        <Button Name="RestartButton" Content="Restart" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Click="Restart_Click" Height="30" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="175" Canvas.Top="105"/>
+
+    </Canvas>
+</Window>
