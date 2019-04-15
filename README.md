@@ -1,5 +1,5 @@
 # Restart
-Simple application which asks if you want to restart the computer or not. Matches theme on notifications
+Simple application which asks if you want to restart the computer or not. Matches theme on notifications. Clicking Restart will restart the computer.
 
 ![A picture of the window](Restart.png)
 
