@@ -8,8 +8,8 @@
         Title="Confirm Restart" Height="153" Width="286" Background="#FF404040" ShowInTaskbar="False" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Canvas>
         <Label Name="Question" Content="Are you sure you want to restart?" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="16" Grid.ColumnSpan="3" Width="259" Height="34" Canvas.Left="20" Canvas.Top="20"/>
-        <Button Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Click="Cancel_Click" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="20" Canvas.Top="105" IsDefault="True" IsCancel="True"/>
-        <Button Name="RestartButton" Content="Restart" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Click="Restart_Click" Height="30" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="175" Canvas.Top="105"/>
+        <Button Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="90" Click="Cancel_Click" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="20" Canvas.Top="105" IsCancel="True"/>
+        <Button Name="RestartButton" Content="Restart" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Click="Restart_Click" Height="30" FontSize="16" Foreground="White" Background="#FF808080" Canvas.Left="175" Canvas.Top="105" IsDefault="True"/>
 
     </Canvas>
 </Window>
