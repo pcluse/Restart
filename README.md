@@ -1,6 +1,8 @@
 # Restart
 Simple application which asks if you want to restart the computer or not. Matches theme on notifications
 
+![A picture of the window](Restart.png)
+
 Install this as a handler for protocol restart: so it can be used from toast notifications
 
 ```powershell
